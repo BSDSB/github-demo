@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                build 'SeleniumMaven'
+                echo 'test...'
             }
         }
         stage('Deploy') {
